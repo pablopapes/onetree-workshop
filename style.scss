@@ -1,0 +1,119 @@
+.full-container {
+  display: flex;
+  position: relative;
+
+  .container {
+    display: flex;
+    width: 1420px;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    background: #FEFEFD;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    gap: 24px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    .card {
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+      gap: 24px;
+      align-self: stretch;
+      flex-wrap: wrap;
+
+      img {
+        height: 780px;
+        min-width: 350px;
+        flex: 1 0 0;
+      }
+
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        flex: 1 0 0;
+
+        .overview,
+        .travel-style,
+        .service-level,
+        .trip-type {
+          display: flex;
+          padding: 24px;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 12px;
+          align-self: stretch;
+        }
+
+        .overview {
+          border-radius: 10px;
+          border: 1px solid #D6D6D6;
+        }
+
+        .travel-style,
+        .service-level,
+        .trip-type {
+          border-radius: 10px;
+          background: #F6F8FC;
+        }
+
+        p {
+          color: #000;
+          font-family: Montserrat;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 30px;
+          margin: 0;
+        }
+
+        h2 {
+          color: #000;
+          font-family: Montserrat;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin: 0;
+        }
+      }
+    }
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      align-self: stretch;
+
+      h1 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+      }
+
+      h3 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+      }
+    }
+  }
+}
+

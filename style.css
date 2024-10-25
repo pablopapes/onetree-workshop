@@ -1,0 +1,108 @@
+.full-container {
+  display: flex;
+  position: relative;
+}
+.full-container .container {
+  display: flex;
+  width: 1420px;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  background: #FEFEFD;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  gap: 24px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.full-container .container .card {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.full-container .container .card img {
+  height: 780px;
+  min-width: 350px;
+  flex: 1 0 0;
+}
+.full-container .container .card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+}
+.full-container .container .card .card-content .overview,
+.full-container .container .card .card-content .travel-style,
+.full-container .container .card .card-content .service-level,
+.full-container .container .card .card-content .trip-type {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.full-container .container .card .card-content .overview {
+  border-radius: 10px;
+  border: 1px solid #D6D6D6;
+}
+.full-container .container .card .card-content .travel-style,
+.full-container .container .card .card-content .service-level,
+.full-container .container .card .card-content .trip-type {
+  border-radius: 10px;
+  background: #F6F8FC;
+}
+.full-container .container .card .card-content p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+.full-container .container .card .card-content h2 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.full-container .container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.full-container .container .title h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.full-container .container .title h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
